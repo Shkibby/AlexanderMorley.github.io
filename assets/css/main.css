@@ -2573,11 +2573,11 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, .image.circle {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.circle {
 				width: 100%;
 			}
 
@@ -2613,10 +2613,9 @@ input, select, textarea {
 				width: 100%;
 			}
 		.image.circle{
-			border-radius: 0.25em;
-			border: 0;
-			width: 50%;
-			position: relative;
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
 		}
 
 /* List */
