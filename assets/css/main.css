@@ -2536,7 +2536,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #66260d;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2573,11 +2573,11 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right, .image.circle {
+		.image.left, .image.right {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img, .image.circle {
+			.image.left img, .image.right img {
 				width: 100%;
 			}
 
@@ -2613,9 +2613,10 @@ input, select, textarea {
 				width: 100%;
 			}
 		.image.circle{
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
+			border-radius: 0.25em;
+			border: 0;
+			display:inline-block;
+			position: relative;
 		}
 
 /* List */
@@ -3245,7 +3246,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #66260d;
 		}
 
 		.wrapper.style1-alt {
