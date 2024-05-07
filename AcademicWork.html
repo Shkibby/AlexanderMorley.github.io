@@ -127,16 +127,21 @@
 							<h1 class="major"><a name="sixth">Robotic Systems Design Project </a></h1>
 							<iframe src="https://onedrive.live.com/embed?resid=D73EFCC68273CA52%2157230&authkey=!AK5cc4MYBqtK43Y" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
 							<p>Studying at the University of Manchester. I lead a team of postgraduate engineers to assemble a Leo Rover and a Trossen PincherX 150 Manipulator
-							that will support each other with ROS2 code to find and retrieve an object with a high degree of autonomy.</p>
+							that will support each other with ROS2 code to find and retrieve a small wooden cube from an unknown environment, with a high degree of autonomy.</p>
 							<p>With this project there was four main sections that our team needed to complete.</p>
 							<li>Manipulator Control</li>
-							<p>With this project there was four main sections that our team needed to complete.</p>
+							<p>We used code to send ROS messages that publish geometric joint states that allow the Trossen Manipulator to use built in libraries to achieve speicifc configurations.
+							With this set up we could configure the arm to have a set point-to-point path to pick up the objects spotted on the camera.</p>
 							<li>Design and Construction Control</li>
-							<p>With this project there was four main sections that our team needed to complete.</p>
-							<li>Object Detection and Computer Vision</li>
-							<p>With this project there was four main sections that our team needed to complete.</p>
+							<p>With this project we was given all the components but had to build up a frame to mount all of the devices and peripherals ontop of the Leo Rover platform. 
+							The robots frame fabrication met all the deisng requirments within the budget set.</p>
 							<li>Path Planning</li>
-							<p>With this project there was four main sections that our team needed to complete.</p>
+							<p>The robot was able to map and navigate through an unknown environment, while avoiding nearby obstacles. This was done by using sensor fusion of multiple sensors,
+							namely the LiDAR, IMU and wheel encoders.</p>
+							<li>Object Detection and Computer Vision</li>
+							<p>The object detection utilised a depth camera which published the colour and depth information from the frame. The algorithm implemented was the colour-based
+							detection algorithm that can accurately identify different cubes placed into the cameras field of view.</p>
+							
 							<p>The full report can be found <a href="FinalDesignReview (1).pdf">here</a>. As well as the video for the design requirements for the project.</p>
 							<iframe src="https://onedrive.live.com/embed?resid=D73EFCC68273CA52%2157672&authkey=!AJ4egKfVavjrEx8" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
 							
